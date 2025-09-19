@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad SYSTEM "vecinos.dtd">
+<comunidad>
+  <propietario codigo="V001" cargo="Presidente">
+    <nombre>Adrian</nombre>
+    <apellido1>Martin</apellido1>
+    <Cuenta_Corriente>ES739324734892</Cuenta_Corriente>
+    <propiedad portal="5" piso="4" letra="B"></propiedad>
+  </propietario>
+</comunidad>

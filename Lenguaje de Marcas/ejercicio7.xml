@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"  encoding="UTF-8"?>
+<!DOCTYPE album SYSTEM "ejercicio7.dtd">
+<album>
+<titulo>El silencio de los corderos</titulo>
+<autor>Almudena Grandes</autor>
+<añopubli>2009</añopubli>
+</album>

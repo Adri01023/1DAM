@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    grid-area: "area0"
+               "area1"
+               "area2";
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.contenedor1 {
+    width: 600px;
+    background-color: lightgrey;
+    padding: 10px;
+    grid-area: "area0";
+}
+.interior1 {
+    background-color: white;
+    padding: 20px;
+    border: 1px black solid;
+}
+.caja1 {
+    border: 1px solid lightgray;
+    width: 95%;
+    padding: 7px;
+}
+.submit {
+    width: 95%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.contenedor2 {
+    grid-area: "area1";
+    width: 300px;
+    background-color: grey;
+}
+
+#titulo2 {
+    background-color: red;
+}

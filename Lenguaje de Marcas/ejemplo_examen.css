@@ -1,0 +1,137 @@
+body {
+    margin-left: 28%;
+}
+.contenedor {
+    margin-top: -16%;
+    display: grid;
+
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-template-areas: "area0 area0 area0"
+                        "area1 area2 area3"
+                        "area1 area4 area5"
+                        "area1 area6 area7"
+                        "area8 area8 area9"
+                        "area10 area10 area10";
+    gap: 5px;
+}
+
+.caja {
+    background-color: greenyellow;
+    border: 1px solid #000;
+}
+
+.caja:nth-child(1) {
+    grid-area: area0;
+    text-align: center;
+    height: 30px;
+    margin-top: 27.5%;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    background-color: lightgreen;
+    width: 30%;
+    border-radius: 15px;
+}
+
+.caja:nth-child(2) {
+    grid-area: area1;
+    
+}
+
+.caja:nth-child(3) {
+    grid-area: area2;
+}
+
+.caja:nth-child(4) {
+    grid-area: area3;
+}
+
+.caja:nth-child(5) {
+    grid-area: area4;
+}
+
+.caja:nth-child(6) {
+    grid-area: area5;
+}
+
+.caja:nth-child(7) {
+    grid-area: area6;
+}
+
+.caja:nth-child(8) {
+    grid-area: area7;
+}
+
+.caja:nth-child(3):hover ,.caja:nth-child(4):hover, .caja:nth-child(5):hover, .caja:nth-child(6):hover, .caja:nth-child(7):hover, .caja:nth-child(8):hover  {
+    transition: 0.8s;
+    scale: 1.5;
+}
+
+.caja:nth-child(9) {
+    grid-area: area8;
+    text-align: center;
+    height: 30px;
+}
+
+.caja:nth-child(10) {
+    grid-area: area9;
+    text-align: center;
+    height: 30px;
+}
+
+.caja:nth-child(11) {
+    grid-area: area10;
+    text-align: center;
+    height: 30px;
+    margin-top: -27.5%;
+}
+
+@media (max-width: 800px) {
+    .contenedor{
+      margin-top: -35%;
+        grid-template-areas:"area0" 
+                            "area1"
+                             "area2"
+                             "area3"
+                             "area4"
+                             "area5"
+                             "area6"
+                             "area7"
+                             "area8"
+                             "area9"
+                             "area10";
+    }
+    .caja:nth-child(1) {
+        grid-area: area0;
+        text-align: center;
+        height: 30px;
+        translate: 0px 110px;
+    }
+    p {
+        translate: -40px 25px;
+        float: left;
+        height: 15%;
+    }
+    .caja:nth-child(2) {
+        grid-area: area1;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .caja:nth-child(10) {
+        margin-top: -85%;
+    grid-area: area9;
+    text-align: center;
+    height: 30px;
+    }
+    .caja:nth-child(11) {
+    margin-top: -169%;
+    grid-area: area10;
+    text-align: center;
+    height: 22%;
+    }
+}

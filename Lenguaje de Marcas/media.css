@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*Si desborda*/
+   /* flex-flow: row wrap-reverse; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px, 10px;
+    margin: auto;
+    width: 70%;
+    align-self: flex-start;
+    height: 550px;
+    border: 1px red solid;
+}
+
+.caja {
+    background-color: beige;
+    height: 400px;
+    flex-basis: 30%;
+}
+
+@media (max-width: 700px) {
+main{
+    flex-direction: column;
+}    
+}

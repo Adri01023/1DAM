@@ -1,0 +1,5 @@
+<!ELEMENT arbol (persona+)>
+<!ELEMENT persona (nombre,apellido,apellido?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ATTLIST persona ref ID #REQUIRED>

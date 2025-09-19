@@ -1,0 +1,5 @@
+p:nth-last-of-type(3)::first-letter {
+    font-size: 4em;
+    line-height: 0.8;
+    text-indent: 3em;
+}

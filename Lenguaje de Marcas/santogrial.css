@@ -1,0 +1,39 @@
+main {
+    width: 75%;
+    margin: auto;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 450px;
+    column-gap: 10px;
+    /*-webkit-text-stroke: 2px black;*/
+    padding: 10px;
+}
+.caja1 {
+    flex-basis: 23%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgray;
+}
+.caja2 {
+    flex-basis: 45%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.cabecera {
+    text-align: center;
+    border: 2px solid black;
+    background-color: grey;
+}
+
+footer {
+    border: 2px solid black;
+    background-color: grey;
+    padding: 5px;
+}

@@ -1,0 +1,26 @@
+header {
+    width: 800px;
+    height: 75px;
+    background-color: blueviolet;
+    text-align: center;
+}
+aside {
+    float: left;
+    height: 300px;
+    width: 200px;
+    background-color: brown;
+    text-align: center;
+}
+article {
+    height: 150px;
+    width: 800px;
+    background-color: crimson;
+    text-align: center;
+}
+footer {
+    width: 800px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+<!ELEMENT album (titulo,autor,añopubli)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT añopubli (#PCDATA)>

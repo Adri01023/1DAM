@@ -1,0 +1,35 @@
+h1, h2 {
+    color: blue;
+    text-shadow: 25px 25px 25px blue;
+}
+td:empty {
+    background: linear-gradient(black, gray);
+}
+table {
+    background: linear-gradient(aqua, white);
+    padding: 10px;
+    margin: 10px;
+    border: 2px black solid;
+    box-shadow: 15px 15px 55px blue;
+    border-radius: 20px;
+    width: 790px;
+}
+th {
+    background-color: green;
+    color: white;
+    border: 3px white solid;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+td {
+    color: blue;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    font-weight: bolder;
+}
+td + td {
+    color: black;
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,0 +1,35 @@
+body {
+    width: 820px;
+    margin: auto;
+    
+    text-align: center;
+    font-family: sans-serif;
+    overflow: auto;
+}
+h2 {
+    text-decoration: underline;
+    font-family: monospace;
+}
+article {
+    border: 2px black solid;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+.asu {
+    background-color: aqua;
+}
+.verde {
+    background-color: greenyellow;
+}
+.rosa {
+    background-color: darksalmon;
+
+}
+
+div {
+    clear: both;
+    font-family: sans-serif;
+}

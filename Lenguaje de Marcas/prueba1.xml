@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  agenda SYSTEM "prueba1.dtd">
+<agenda>
+<persona>
+<nombre>Pepe</nombre>
+<apellido>Garcia</apellido>
+<apellido>Morales</apellido>
+<telefono fijo="true">91124521</telefono>
+</persona>
+<persona>
+<nombre>Macarena</nombre>
+<apellido>Olona</apellido>
+<telefono fijo="false" trabajo="false">624578454</telefono>
+</persona>
+</agenda>

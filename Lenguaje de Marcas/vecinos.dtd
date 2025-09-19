@@ -1,0 +1,9 @@
+<!ELEMENT comunidad (propietario)+>
+<!ELEMENT propietario (nombre, apellido1,apellido2?,Cuenta_Corriente,propiedad+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT Cuenta_Corriente (#PCDATA)>
+<!ELEMENT propiedad EMPTY>
+<!ATTLIST propietario codigo ID #REQUIRED cargo (Presidente,Vicepresidente,Secretario,Vocal,Ninguno)>
+<!ATTLIST propiedad portal (5|7|9) #REQUIRED piso (1|2|3|4) #REQUIRED letra (A|B|C) #REQUIRED>

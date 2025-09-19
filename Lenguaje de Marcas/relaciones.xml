@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  arbol SYSTEM "relaciones.dtd">
+<arbol>
+<persona ref="X001">
+<nombre>Pepe</nombre>
+<apellido>Garcia</apellido>
+</persona>
+<persona ref="X002">
+<nombre>Macarena</nombre>
+<apellido>Olona</apellido>
+</persona>
+</arbol>

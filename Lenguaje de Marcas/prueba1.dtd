@@ -1,0 +1,10 @@
+<!ELEMENT agenda (persona*)>
+<!-- ? = 0 o 1 vez, * 0 o N veces, + 1 o N veces | or-->
+<!ELEMENT persona (nombre,apellido+,telefono?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono fijo (true|false) #REQUIRED trabajo (true|false) #IMPLIED>
+<!-- <!ELEMENT telefono ((fijo,movil?) | (fijo?,movil))>
+<!ELEMENT fijo (#PCDATA)>
+<!ELEMENT movil (#PCDATA)> -->
